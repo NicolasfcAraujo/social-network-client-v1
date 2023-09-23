@@ -1,6 +1,6 @@
 const CookiesAlert = () => {
   return (
-
+    <></>
   )
 }
 
