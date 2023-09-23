@@ -1,7 +1,7 @@
-const  = () => {
+const ProfilePhoto = () => {
   return (
 
   )
 }
 
-export default 
+export default ProfilePhoto

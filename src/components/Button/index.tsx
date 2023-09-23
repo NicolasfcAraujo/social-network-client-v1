@@ -1,7 +1,7 @@
-const  = () => {
+const Button = () => {
   return (
 
   )
 }
 
-export default 
+export default Button

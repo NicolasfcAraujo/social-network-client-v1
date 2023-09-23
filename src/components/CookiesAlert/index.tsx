@@ -1,7 +1,7 @@
-const  = () => {
+const CookiesAlert = () => {
   return (
 
   )
 }
 
-export default 
+export default CookiesAlert

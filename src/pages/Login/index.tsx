@@ -1,7 +1,7 @@
-const  = () => {
+const Login = () => {
   return (
 
   )
 }
 
-export default 
+export default Login

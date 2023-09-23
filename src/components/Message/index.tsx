@@ -1,7 +1,7 @@
-const  = () => {
+const Message = () => {
   return (
 
   )
 }
 
-export default 
+export default Message

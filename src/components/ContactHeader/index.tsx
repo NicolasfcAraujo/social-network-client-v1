@@ -1,7 +1,7 @@
-const  = () => {
+const ContactHeader = () => {
   return (
 
   )
 }
 
-export default 
+export default ContactHeader

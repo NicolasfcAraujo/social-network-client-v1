@@ -1,7 +1,7 @@
-const  = () => {
+const MessageInput = () => {
   return (
 
   )
 }
 
-export default 
+export default MessageInput

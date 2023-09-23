@@ -1,7 +1,7 @@
-const  = () => {
+const Contacts = () => {
   return (
 
   )
 }
 
-export default 
+export default Contacts
