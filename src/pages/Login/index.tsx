@@ -32,7 +32,7 @@ const Login = () => {
                 </div>
               </div>
 
-              <Button type="submit" color="#eab308" width="100%" text="Log In" function={() => console.log("Log in")}/>
+              <Button type="submit" color="#eab308" textColor="#a16207" width="100%" text="Log In" func={() => console.log("Log in")}/>
             </form>
         </div>
       </main>

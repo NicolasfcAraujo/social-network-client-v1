@@ -1,22 +1,33 @@
 export interface IButton {
   type: "button" | "submit",
   color: string,
+  textColor: string,
   text: string,
   width: string,
-  function: () => void | null
+  func: () => void
 }
 
-const Button = (props: IButton) => {
+const Button = ({ type, color, text, textColor, width, func }: IButton) => {
   return (
-    <button type={props.type} onClick={props.function} className=" center-div py-2 rounded"
+    <button type={type} onClick={func} className=" center-div py-2 rounded"
       style={{
-        background: `${props.color}`,
-        width: `${props.width}`
+        background: color,
+        width: width,
+        color: textColor
       }}
     >
-      {props.text}
+      {text}
     </button>
   )
+}
+
+Button.defaultProps = {
+  type: "button",
+  color: "#FFF",
+  text: "Button",
+  textColor: "black",
+  width: "100%",
+  func: () => console.log("button")
 }
 
 export default Button
