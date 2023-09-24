@@ -2,7 +2,7 @@ import ProfilePhoto from "../ProfilePhoto"
 
 const Contact = () => {
   return (
-    <article className=" w-full h-24 rounded p-4 border flex mb-4 cursor-pointer bg-white hover:bg-gray-100">
+    <article className=" w-full h-24 rounded p-4 border flex mb-4 cursor-pointer bg-white hover:bg-gray-50">
       <div>
         <ProfilePhoto/>
       </div>

@@ -6,7 +6,7 @@ export interface IProfilePhoto {
 
 const ProfilePhoto = ({ width, height, imagePath }:IProfilePhoto) => {
   return (
-    <div className=" border bg-red-400 rounded-full overflow-hidden " style={{
+    <div className=" border bg-gray-400 rounded-full overflow-hidden " style={{
       width: width,
       height: height
     }}>

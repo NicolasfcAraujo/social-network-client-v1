@@ -15,7 +15,10 @@ const Login = () => {
 
               <div>
                 <h1 className=" font-semibold text-3xl mb-8 center-div md:hidden">Social Network</h1>
-                <h1 className=" text-xl">Log In</h1>
+                <div className=" flex justify-between text-xl">
+                  <h1 className=" text-xl">Log In</h1>
+                  <Link to={"/"}><i className="fa-solid fa-xmark"></i></Link>
+                </div>
 
                 <div className=" flex flex-col pt-6">
                   <label htmlFor="EMAIL" className=" input-label">Email</label>
