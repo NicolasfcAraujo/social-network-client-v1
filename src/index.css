@@ -35,6 +35,7 @@ code {
   padding-bottom: 0.5rem/* 8px */;
   border-radius: 0.25rem/* 4px */;
   margin-bottom: 16px;
+  background: rgb(229 231 235);
 }
 
 .input:focus {
