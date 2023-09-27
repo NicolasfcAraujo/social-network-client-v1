@@ -36,8 +36,8 @@ function App() {
     setIsLoading(true)
     setMessages([])
     const getMessages = async () => {
-      const userMessages = await axios.get(`http://localhost:4000/api/v1/user/getMessages/${id}/${currentContact.id}`)
-      const contactMessages = await axios.get(`http://localhost:4000/api/v1/user/getMessages/${currentContact.id}/${id}`)
+      const userMessages = await axios.get(`${process.env.REACT_APP_API_URL}/user/getMessages/${id}/${currentContact.id}`)
+      const contactMessages = await axios.get(`${process.env.REACT_APP_API_URL}/user/getMessages/${currentContact.id}/${id}`)
 
       const mergedMessages: IMessageWithId[] = [ ...userMessages.data.getMessages[0], ...contactMessages.data.getMessages[0] ]
       const sortedMessages: IMessageWithId[] = mergedMessages.sort((a, b) => a.id - b.id)

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react"
+import { useRef, useState } from "react"
 import { IMessage } from "../../utils/types"
 import { useAppSelector } from "../../utils/redux/store"
 import socket from "../../utils/socket"
