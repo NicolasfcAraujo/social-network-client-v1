@@ -7,7 +7,7 @@ const Message = ({text, sender}: IMessage) => {
   return (
     <article className={` w-full flex my-2 ${sender ? "justify-end" : "justify-start" }`}>
       {sender === false &&
-        <div className=" bg-gray-500 w-2">
+        <div className=" bg-gray-400 w-2">
           <div className=" w-full h-full bg-white rounded-tr-full"></div>
         </div>
       }
