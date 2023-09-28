@@ -11,7 +11,7 @@ const Message = ({text, sender}: IMessage) => {
           <div className=" w-full h-full bg-white rounded-tr-full"></div>
         </div>
       }
-      <div className={`  p-4 w-fit ${sender ? " rounded-b rounded-tl bg-yellow-500 text-yellow-950": " rounded-b rounded-tr bg-gray-500"}`}>
+      <div className={`  p-4 w-fit ${sender ? " rounded-b rounded-tl bg-yellow-500 text-yellow-950": " rounded-b rounded-tr bg-gray-400"}`}>
         <p>{text}</p>
       </div>
       {sender === true &&
